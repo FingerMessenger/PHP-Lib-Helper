@@ -3,7 +3,11 @@
 composer require fingermessenger/helpers
 
 ## Usage
-	
+
+```php
+use FingerMessenger\Helpers;
+```
+
 Helpers::getRandomChar(int $length) :string 取得指定长度的随机字符串（包括：大小写字母和数字）
 
 Helpers::getRandomNum(int $length) :string	取得指定长度的随机字符串，只包含数字
